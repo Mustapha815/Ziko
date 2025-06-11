@@ -25,8 +25,8 @@ const ImageCarousel = ({ images, autoScrollInterval = 3000 }) => {
   };
 
   return (
-    <div className="w-full overflow-hidden bg-gradient-to-r from-blue-900 via-purple-900 to-blue-900 ">
-      <div className="max-w-7xl mx-auto ">
+    <div className="w-full overflow-hidden bg-gradient-to-r from-blue-900 via-purple-900 to-blue-900 py-8">
+      <div className="max-w-7xl mx-auto px-2">
         <div className="relative h-96 group">
           {/* Main carousel container */}
           <div className="relative w-full h-full overflow-hidden rounded-2xl">
