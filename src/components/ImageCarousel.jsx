@@ -25,9 +25,9 @@ const ImageCarousel = ({ images, autoScrollInterval = 3000 }) => {
   };
 
   return (
-    <div className="w-full overflow-hidden bg-gradient-to-r from-blue-900 via-purple-900 to-blue-900 py-12">
-      <div className="max-w-7xl mx-auto px-4">
-        <div className="relative h-96 group">
+    <div className="w-full overflow-hidden bg-gradient-to-r from-blue-900 via-purple-900 to-blue-900 py-8">
+      <div className="max-w-7xl mx-auto px-2">
+        <div className="relative h-[580px] group">
           {/* Main carousel container */}
           <div className="relative w-full h-full overflow-hidden rounded-2xl">
             <div
@@ -35,7 +35,7 @@ const ImageCarousel = ({ images, autoScrollInterval = 3000 }) => {
               style={{ transform: `translateX(-${currentIndex * 100}%)` }}
             >
               {images.map((image, index) => (
-                <div key={index} className="flex-shrink-0 w-full h-[880px] relative bg-blue-200">
+                <div key={index} className="flex-shrink-0 w-full h-full relative bg-blue-200">
                   <img
                     src={image}
                     alt={`Gallery image ${index + 1}`}
