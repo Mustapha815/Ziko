@@ -35,7 +35,7 @@ const ImageCarousel = ({ images, autoScrollInterval = 3000 }) => {
               style={{ transform: `translateX(-${currentIndex * 100}%)` }}
             >
               {images.map((image, index) => (
-                <div key={index} className="flex-shrink-0 w-full h-[484px] relative bg-blue-200">
+                <div key={index} className="flex-shrink-0 w-full h-[580px] relative bg-blue-200">
                   <img
                     src={image}
                     alt={`Gallery image ${index + 1}`}
