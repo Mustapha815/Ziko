@@ -34,7 +34,7 @@ const Footer = () => {
           <div className="text-center mb-12">
             <h3 className="text-3xl font-bold mb-4">Get In Touch</h3>
             <p className="text-gray-300 text-lg max-w-2xl mx-auto">
-              Ready to transform your productivity? Reach out to us through any of these channels.
+              Êtes-vous prêt à voir votre projet aujourd’hui plutôt que demain ? Contactez-nous dès maintenant.
             </p>
           </div>
 

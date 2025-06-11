@@ -8,17 +8,20 @@ const MainContent = () => {
         <div className="mb-8">
           <Sparkles className="w-16 h-16 mx-auto text-blue-600 mb-6" />
           <h1 className="text-5xl font-bold text-gray-900 mb-6 leading-tight">
-            Revolutionize Your
+            Batier de l'avenier vesualiser
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">
-              {" "}Productivity
+              {" "}aujourd'hui
             </span>
           </h1>
         </div>
         
         <p className="text-xl text-gray-700 leading-relaxed mb-12 max-w-3xl mx-auto">
-          This app helps users manage their tasks efficiently with AI-powered suggestions. 
-          Experience seamless workflow optimization, intelligent task prioritization, and 
-          personalized productivity insights that adapt to your unique working style.
+         Notre langage visuel est une langue universelle qui traduit la vision de 
+         l’architecte en une réalité compréhensible pour tous. Nous vous permettons de voir des détails invisibles
+         à l’œil nu et d’explorer des formes innovantes avant même le début de la construction. Notre objectif est
+         de repousser les limites de l’imagination et de transformer des concepts audacieux en réalités tangibles. 
+         Nous renforçons ainsi la communication entre l’architecte, le client et les intervenants, en faisant de la représentation
+          visuelle un outil plus puissant que des milliers de dessins
         </p>
         <div className="grid md:grid-cols-3 gap-8 mt-16">
           <div className="group p-8 bg-white rounded-2xl shadow-lg hover:shadow-2xl 
