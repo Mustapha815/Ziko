@@ -30,9 +30,12 @@ const MainContent = () => {
                           mb-6 mx-auto group-hover:scale-110 transition-transform duration-300">
               <Zap className="w-7 h-7 text-blue-600" />
             </div>
-            <h3 className="text-xl font-semibold text-gray-900 mb-4">AI-Powered</h3>
+            <h3 className="text-xl font-semibold text-gray-900 mb-4">Réalisme 3D & Expériences Immersives</h3>
             <p className="text-gray-600 leading-relaxed">
-              Smart algorithms analyze your patterns and suggest optimal task scheduling
+              Nous donnons vie à vos projets architecturaux
+              Images, vidéos 3D et visites virtuelles immersives (VR) 
+              pour une visualisation complète, comme si vous y étiez. 
+              Idéal pour convaincre vos clients et investisseurs
             </p>
           </div>
 
@@ -42,9 +45,12 @@ const MainContent = () => {
                           mb-6 mx-auto group-hover:scale-110 transition-transform duration-300">
               <Target className="w-7 h-7 text-teal-600" />
             </div>
-            <h3 className="text-xl font-semibold text-gray-900 mb-4">Goal-Focused</h3>
+            <h3 className="text-xl font-semibold text-gray-900 mb-4">Conception Sur Mesure</h3>
             <p className="text-gray-600 leading-relaxed">
-              Stay aligned with your objectives through intelligent priority management
+              Des rendus pensés pour répondre à vos objectifs
+              Nous adaptons chaque visualisation à vos attentes : 
+              style architectural, aménagement paysager, fonctionnalités, 
+              et plus encore. Vous obtenez un résultat unique, fidèle à votre vision
             </p>
           </div>
 
@@ -54,9 +60,11 @@ const MainContent = () => {
                           mb-6 mx-auto group-hover:scale-110 transition-transform duration-300">
               <Sparkles className="w-7 h-7 text-purple-600" />
             </div>
-            <h3 className="text-xl font-semibold text-gray-900 mb-4">Intuitive</h3>
+            <h3 className="text-xl font-semibold text-gray-900 mb-4">Expérience Fluide & Interactive</h3>
             <p className="text-gray-600 leading-relaxed">
-              Beautiful interface that adapts to your workflow and preferences
+              Un processus clair, rapide et collaboratif
+              Interface intuitive, échanges simplifiés, suivis réguliers et rendus interactifs.
+              Notre équipe reste à vos côtés à chaque étape, jusqu’à la livraison finale
             </p>
           </div>
         </div>
